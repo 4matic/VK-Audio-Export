@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="og:image" content="docs/img/logo1200x630.png">
         <link rel="image_src" href="docs/img/logo537x240.png">
+        <link rel="icon" type="image/png" href="images/icon16.png" sizes="16x16">
 
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -89,7 +90,7 @@
                             <p>Сохрани свой плейлист и любимую музыку на свой компьютер пока есть такая возможность!</p>
                             <div class="row install-links">
                                 <div class="col-lg-7 col-md-7 col-xs-6 google-store">
-                                    <a href="https://chrome.google.com/webstore/detail/vk-audio-export/haplpkjgigjbejbjgeiakeahglbkgejf" data-analytics-category="Header" data-analytics-label="chrome-download"><img src="images/ChromeWebStore.png" alt="" class="img-responsive"></a>
+                                    <a target="_blank" href="https://chrome.google.com/webstore/detail/vk-audio-export/haplpkjgigjbejbjgeiakeahglbkgejf" data-analytics-category="Header" data-analytics-label="chrome-download"><img src="images/ChromeWebStore.png" alt="" class="img-responsive"></a>
                                 </div>
                                 <div class="col-lg-5 col-md-5 col-xs-6 wow start-btn">
                                      <a class="btn btn-primary text-uppercase" href="https://github.com/4matic/VK-Audio-Export/blob/master/dist/VK-Audio-Export.crx?raw=true" data-analytics-category="Header" data-analytics-label="github-download" role="button">Скачать &nbsp;<i class="fa fa-download" aria-hidden="true"></i></a>
@@ -99,10 +100,19 @@
 	                </div>
 	                <div class="col-md-6 wow zoomIn">
 
-	                    <div class="block">
-                        <p class="attention" data-wow-delay="0.3s">
-                         С <b>16 декабря 2016 года</b> ВКонтакте меняет политику предоставления API для работы с аудиозаписями. Приложения сторонних разработчиков не смогут обращаться к большинству методов секции audio за исключением доверенных приложений.
-                        </p>
+	                    <div class="block post-style">
+<!--                         <div class="vk_api_post">
+                            <div id="vk_post_-1_340410"></div>
+                            <script type="text/javascript">
+                            (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//vk.com/js/api/openapi.js?136"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'vk_openapi_js'));
+                            (function() {
+                            if (!window.VK || !VK.Widgets || !VK.Widgets.Post || !VK.Widgets.Post('vk_post_-1_340410', -1, 340410, 'pAw-g5oKe-j8gk7jEr6P9wxII04', {width: 555})) setTimeout(arguments.callee, 50);
+                            }());
+                            </script>
+                        </div> -->
+                        <div class="">
+                            <img src="images/post-reply.PNG" class="img-responsive" alt="vk-post">
+                        </div>
 	                        <div class="counter text-center">
 	                            <ul id="countdown_dashboard">
 	                                <li>
@@ -204,8 +214,17 @@
                     <div class="col-md-5 install-guide">
                         <h2 class="block-heading">Руководство по установке</h2>
                     <!-- <div class="block"> -->
-                       <p>Как установить приложение в Google Chrome браузер на примере установки расширения.</p> 
+                       <p>Как установить приложение в Google Chrome браузер.</p> 
                     <!-- </div>                      -->
+                    <div class="">
+                        <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+
+                        <!-- VK Widget -->
+                        <div id="vk_groups"></div>
+                        <script type="text/javascript">
+                        VK.Widgets.Group("vk_groups", {mode: 1, width: "400", color3: '040D18'}, 135262403);
+                        </script>
+                    </div>
                     </div>
                     <div class="col-md-7">
                         <div class="video-link">
@@ -222,7 +241,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block">
-                            <p>Copyright by &copy; <a href="https://github.com/4matic/VK-Audio-Export" data-analytics-category="Footer" data-analytics-label="copyright-click">nodemons</a> |2016| All right reserved.</p>
+                            <p>Copyright by  <a href="https://github.com/4matic/VK-Audio-Export" data-analytics-category="Footer" data-analytics-label="copyright-click">nodemons &copy;</a> All right reserved. 2016</p>
                         </div>
                     </div>
                 </div>

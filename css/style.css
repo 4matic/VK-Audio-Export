@@ -25,6 +25,9 @@
     text-transform: uppercase;
     float: right;
 }
+.navbar-brand a {
+	/*background-color: red;*/
+}
 .logo-heading-top{
 	color: white;
 	font-size: 2em !important;
@@ -94,6 +97,13 @@
 .google-store img{
 	max-width: 90%!important;
 	position: relative;
-	left: -10px;
-	top: -5px;
+	left: -12px;
+	top: -9px;
+}
+.post-style{
+	padding-top: 0!important;
+
+}
+.post-style .counter{
+	margin-top: 55px!important;
 }
