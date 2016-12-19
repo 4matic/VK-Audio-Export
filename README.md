@@ -9,7 +9,7 @@ Download Google [CRX Package Format (.crx file)](https://github.com/4matic/VK-Au
 
 [Installation Video for non Chrome Web Store Package](https://4matic.github.io/VK-Audio-Export/docs/app_install_manual.webm)
 
-![Installing Guide](https://4matic.github.io/VK-Audio-Export/docs/download_tracks_new.gif)
+![Installing Guide](https://github.com/4matic/VK-Audio-Export/raw/gh-pages/docs/download_tracks_new.gif)
 
 Welcome Screen:
 
