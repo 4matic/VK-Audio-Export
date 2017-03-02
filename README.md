@@ -1,4 +1,4 @@
-# VK-Audio-Export
+# VK-Audio-Export (Deprecated)
 ![Welcome Screen](https://raw.githubusercontent.com/4matic/VK-Audio-Export/master/docs/img/group_cover.png)
 Export tool for audios in VK.com. Using FIle System API for saving into folder, without every download window opening.
 
